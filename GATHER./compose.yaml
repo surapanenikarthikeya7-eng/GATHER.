@@ -1,0 +1,6 @@
+services:
+  dbproject:
+    image: dbproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
